@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+        body {
+            background-color:hsl(185, 75%, 39%);
+            display:flex;
+            justify-content:center;
+            flex-direction:column;
+            align-items:center;
+            font-family:"Kumbh Sans";
+        }
+        #main {
+            background-color:white;
+            height:400px;
+            width:350px;
+            border-radius:10px;
+        }
+        #avatar {
+            border-radius:100px;
+            position:relative;
+
+        }
+        #background {
+            position:absolute;
+        }
+        #london {
+            border-bottom:solid 1px;
+        }
+        #id {
+            display: block;
+            margin-left: auto;
+            width:500px;
+        }
+        #aidi {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width:500px;
+        }
+        .idk {
+            display:flex;
+        }
+        .p {
+            display:flex;
+            justify-content:start;
+        }
+    </style>
+    <div id="main">
+        <img src="./profile-card-component-main/images/bg-pattern-card.svg" alt="" id="background">
+        <center><img src="./profile-card-component-main/images/image-victor.jpg" alt="" id="avatar"></center>
+        <br><br><br>
+        <center><b>Victor Crest</b>
+        26
+        <br>
+        <p id="london">
+        London
+        </p>
+        <div class="idk">
+        <b class="something">80K</b><br> <p class="p">Followers
+        </p> <b class="something">803K</b><br> <p class="p">Likes</p><b class="something">1.4K</b><br><p class="p">Photos</p>
+        </div> 
+        <img src="./profile-card-component-main/images/bg-pattern-bottom.svg" alt="" id="id">  
+        <img src="./profile-card-component-main/images/bg-pattern-top.svg" alt="" id="aidi"> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            min-height:100vh;
+        }
+        div {
+            background-color:green;
+            width:100px;
+            height:100px;
+            animation-duration:3s;
+            animation-name:sandro;
+        }
+        @keyframes sandro {
+            50% {
+                background-color:yellow;
+                width:150px;
+                height:150px;
+            }
+            100% {
+                background-color:red;
+                width:200px;
+                height:200px;
+            }
+        }
+    </style>
+    <!-- 1)შემქენით მარტივი ანიმაცია, რომელიც შეცვლის ყუთის ზომას და ფერს, თავიდან იყოს მწვანე და ზომაში 100x100, შემდეგ შუა ანიმაციაში გახდეს ყვითელი და 150x150, ბოლოს კი იყოს წითელი და 200x200.
+
+
+3)შექმენით div რომლის სიმაღლე იქნება 150px და სიგრძე 200px ხოლო ფერი ლურჯი შემდეგ გაუწერეთ ანიმაცია რომელიც შეუცვლის ფერს და ზომას, ზომაში გახდება ნარინჯისფერი ხოლო სიმაღლეში და სიგრძეში გაიზრდება 2 ჯერ. ანიმაციის ხანგრძლივობა უნდა იყოს 5 წამი. ანიმაცია კი უნდა დაიწყოს საიტის გაშვებიდან 2 წამში. -->
+    <div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            min-height:100vh;
+        }
+        #MAIN {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            width:200px;
+            height:200px;
+            background-color:red
+        }
+        #unmain {
+            background-color:black;
+            width:100px;
+            height:100px;
+        }
+        div:hover {
+            transform:rotate(45deg);
+            transform:scale(2);
+        }
+        div {
+            transition:3s;
+        }
+    </style>
+    <!-- 3) შექმენით წითელი ფერის div ზომით 200x200, მასში ჩააშენეთ შავი ფერის div ზომით 100x100 და ორივე div-ს გაუწერეთ სასურველი ანიმაცია, რომელიც  მაუსის გადატარებისას ამოქმედდება. (ორივე div გაცენტრეთ); -->
+    <div id="MAIN">
+        <div id="unmain">
+
+        </div>
+    </div>
+</body>
+</html>

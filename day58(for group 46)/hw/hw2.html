@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            min-height:100vh;
+        }
+        div {
+            background-color:red;
+            width:200px;
+            height:200px;
+            animation-name:moves;
+            animation-duration:7s;
+
+        }
+        @keyframes moves {
+            0% {
+                transform:translate(100px)
+            }
+            33% {
+                background-color:aqua;
+            }
+            100% {
+                border-radius:100px;
+            }
+        }
+    </style>
+    <!-- 2) შექმენით div რომლის ზომა იქნება 200x200 და მიანიჭეთ თქვენთვის სასურველი ფერი, შემდეგ გაუწერეთ ანიმაცია რომლის დახმარებითაც დივს გახდით მრგვალს, გადაიტანთ მარჯვნივ 100px და შეუცვლით ფერს. ანიმაცია გრძელდებოდეს 7 წამის განმავლობაში უსასრულოდ. -->
+    <div>
+
+    </div>
+</body>
+</html>

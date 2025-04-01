@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+        }
+        .red {
+            width:100px;
+            height:100px;
+            border:solid red;
+            border-radius:10px;
+            color:red;
+            size:25%;
+        }
+        .blue {
+            width:100px;
+            height:100px;
+            border:solid blue;
+            border-radius:10px;
+            color:blue;
+            size:25%;
+        }
+        .todiv1 {
+            display:flex;
+            flex-direction:column;
+        }
+        .todiv2 {
+            display:flex;
+            flex-direction:column;
+        }
+        .todiv3 {
+            display:flex;
+            flex-direction:column;
+        }
+        .main {
+            display:flex;
+        }
+    </style>
+    <div class="main">
+        <div class="todiv1">
+            <div class="red"><h1>red</h1></div>
+            <div class="blue"><h1>blue</h1></div>
+        </div>
+        <div class="todiv2">
+            <div class="blue"><h1>blue</h1></div>
+            <div class="red"><h1>red</h1></div>
+        </div>
+        <div class="todiv3">
+            <div class="red"><h1>red</h1></div>
+            <div class="blue"><h1>blue</h1></div>
+        </div>
+    </div>
+</body>
+</html>

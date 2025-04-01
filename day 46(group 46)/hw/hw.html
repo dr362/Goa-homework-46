@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        body {
+            background-color:hsl(0, 0%, 8%);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+        #first_div {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            background-color:hsl(0, 0%, 12%);
+            width:300px;
+            height:500px;
+            justify-content:space-evenly;
+            border-radius:10px;
+            font-family:"Inter";
+        }
+        img {
+            width:80px;
+            height:80px;
+            border-radius:50%;
+        }
+        h2 {
+            text-align:center;
+            color:white;
+            font-family:"Inter";
+        }
+        #place {
+            text-align:center;
+            color:hsl(75, 94%, 57%);
+        }
+        .child {
+            width:250px;
+            height:35px;
+            background-color:hsl(0, 0%, 20%);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color:white;
+            font-size:13px;
+            border-radius:5px;
+        }
+        p {
+            color:white;
+            text-align:center;
+            font-size:14px;
+            font-family:"Inter";
+        }
+    </style>
+    <div id="first_div">
+        <div>
+            <img src="./social-links-profile-main/assets/images/avatar-jessica.jpeg" alt="img">
+        </div>
+        <div>
+            <h2>Jessica Randall</h2>
+            <p id="place">London, United Kingdom</p>
+            <p>"Front-end developer and avid reader."</p>
+        </div>
+        <div class="child">GitHub</div>
+        <div class="child">Frontend Mentor</div>
+        <div class="child">LinkedIn</div>
+        <div class="child">Twitter</div>
+        <div class="child">Instagram</div>
+    </div>
+</body>
+</html>
